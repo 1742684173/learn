@@ -14,9 +14,26 @@ ctrc c 退出
 
 
 
+## 9997.防火墙
+
+关闭：systemctl stop firewalld 
+
+状态：systemctl status firewalld
 
 
 
+## **9998.java**
+
+```
+export JAVA_HOME=/usr/local/jdk1.8.0_241
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH
+
+```
+
+需要安装
+
+yum install glibc.i686
 
 ## **9999.源码安装git**
 
@@ -36,7 +53,15 @@ make install
 
 ## **10000.常用命令**
 
+### 972、wget
 
+
+
+### 972.yum安装
+
+yum -y install lrzsz
+
+yum install wget
 
 ### 973.下载和上传
 
@@ -387,7 +412,7 @@ hostname 为主机名，一般用IP地址表示
 
 
 
-### 993、chown/chrpg
+### 993、chown/chrpg/chmod 
 
 将指定文件的拥有者改为指定的用户或组，用户可以是用户名或者用户ID，组也可以是组名或者组ID，命令格式 ：chown/chrpg [option] [user/group] [file]
 
@@ -404,6 +429,10 @@ hostname 为主机名，一般用IP地址表示
 -R	处理指定目录以及其子目录 下的所有文件
 
 -v	显示详细的处理信息
+
+
+
+chmod –R 777 * 
 
 
 

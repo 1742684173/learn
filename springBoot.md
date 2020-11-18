@@ -608,7 +608,9 @@ EnableWebMvcConfiguration是SpringMvc的自动配置
 
 
 
+# 8.virtualBox
 
+linux：root/123456
 
 
 
