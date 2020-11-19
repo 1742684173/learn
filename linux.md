@@ -10,10 +10,6 @@ ctrc c 退出
 
 
 
-
-
-
-
 ## 9997.防火墙
 
 关闭：systemctl stop firewalld 
@@ -63,7 +59,23 @@ yum -y install lrzsz
 
 yum install wget
 
+
+
+![202011180001](.\images\202011180001.jpg)
+
+修改/etc/sysconfig/network-scripts/ifcfg-**追加
+
+DNS1=8.8.8.8
+
+DNS2=4.2.2.2
+
+ifup ifcfg-** 
+
+systemctl restart network
+
 ### 973.下载和上传
+
+yum -y install lrzsz
 
 sz + 文件名  
 rz  + 文件名

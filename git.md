@@ -185,3 +185,12 @@ git config --global user.name "你的名字" git config --global user.email "你
 推送远程标签：git push origin <tagname>  
 
 推送全部：git push origin --tags
+
+
+
+# 10.本地配置
+
+```
+git config --global user.name username
+git config --global user.email username@email.com
+```
